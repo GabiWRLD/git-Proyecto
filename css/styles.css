@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 6px
+    };
+}
+
+/*Encabezado*/
+
+/*fotos*/
+
+    .columnas{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(70, 142, 187);
+    }
+    .columnas{
+    flex: 1;
+    }
+    .columnas img{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgb(70, 142, 187);
+        margin-bottom: 10px;
+        
+    }
+.info-aqui img {
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+/*camisetas*/
+.camisetas {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.camiseta {
+    border: 1px solid #ddd;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    text-align: center;
+    width: calc(50% - 20px);
+    max-width: 300px;
+    margin: 10px;
+}
+.camiseta img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 5px;
+}
+.camiseta h2{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.camiseta p {
+    color: white;
+    margin-bottom: 15px;
+}
+.camiseta button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+.camiseta button:hover{
+    background-color: #0056b3;
+}
+
+
+
+/*body*/
+.camisetas{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.somos{
+    background-color: bisque;
+}
+.somos img{
+    justify-content: left;
+    max-width: 100%;
+    margin-bottom: 50px;
+    height: 300px;
+    margin: 50px;
+}
+.somos h3{
+    margin-top: 0;
+    padding: 40px;
+    text-align: left;
+}
+/*formlario*/
+
+.contact-form{
+background-color: cornflowerblue;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    margin-top: 0;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+/*galler*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.item {
+    overflow: grid;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    margin: 5px 0;
+    color: white;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover{
+    text-decoration: underline;
+}
